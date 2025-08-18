@@ -7,24 +7,23 @@
 </head>
 <body>
     <!-- создаю рамку и название для нее-->
-    <fieldset>  
-        <legend> задание 1</legend>
-        <!-- создаю поле для ввода текста -->
-        <form action="/submit" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-        <!-- создаю поле для ввода почты -->
-        <form action="/submit" method="post">
-            <label for="email">Email:</label>
-            <input type="email" id="email" email="email" required>
-        <!-- создаю поле для ввода паролей -->
-        <form action="/submit" method="post">
-            <label for="password">Password:</label>
-            <input type="password" id="password" password="password" required>
-        <button type="submit">Submit</button>
-        <label for="коментарии">коменрарии:</label>
-        <textarea id="message" name="message" rows="1" cols="20"></textarea><br><br>
-    </fieldset>
+    <form action="/submit" method="post">
+        <fieldset>  
+            <legend> задание 1</legend>
+            <!-- создаю поле для ввода текста -->
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" required>
+            <!-- создаю поле для ввода почты -->
+             <label for="email">Email:</label>
+             <input type="email" id="email" email="email" required>
+            <!-- создаю поле для ввода паролей -->
+             <label for="password">Password:</label>
+             <input type="password" id="password" password="password" required>
+             <button type="submit">Submit</button>
+             <label for="коментарии">коменрарии:</label>
+             <textarea id="message" name="message" rows="1" cols="20"></textarea><br><br>
+        </fieldset>
+   
     <fieldset>
         <legend> задание 2</legend>
         <!-- создаю поле выбора стран -->
@@ -42,5 +41,6 @@
         <textarea id="message" name="message" rows="1" cols="20"></textarea><br><br>
         <button type="reset">Reset</button>
     </fieldset>
+    </form>
 </body>
 </html>

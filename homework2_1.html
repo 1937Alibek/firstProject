@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Элементы формы</title>
+</head>
+<body>
+    <!-- создаю рамку и название для нее-->
+    <fieldset>  
+        <legend> задание 1</legend>
+        <!-- создаю поле для ввода текста -->
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        <!-- создаю поле для ввода почты -->
+        <form action="/submit" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" email="email" required>
+        <!-- создаю поле для ввода паролей -->
+        <form action="/submit" method="post">
+            <label for="password">Password:</label>
+            <input type="password" id="password" password="password" required>
+        <button type="submit">Submit</button>
+        <label for="коментарии">коменрарии:</label>
+        <textarea id="message" name="message" rows="1" cols="20"></textarea><br><br>
+    </fieldset>
+    <fieldset>
+        <legend> задание 2</legend>
+        <!-- создаю поле выбора стран -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="us">Соединеные Штаты Америки</option>
+            <option value="ca">Канада</option>
+            <option value="ru">Россия</option>
+        </select>
+        <h2> </h2>
+        <!-- создаю поле для функции ресет и сумбит -->
+        <button type="submit">Submit</button>
+        <label for="message">форма:</label>
+        <textarea id="message" name="message" rows="1" cols="20"></textarea><br><br>
+        <button type="reset">Reset</button>
+    </fieldset>
+</body>
+</html>

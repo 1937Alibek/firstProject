@@ -1,0 +1,58 @@
+/*  изменяет цвет текста для заголовков */
+#blue {
+    color: blue;
+}
+/* задает разный размер шрифта для абзацев */
+p {
+    font-size: 70px;
+}
+#medium {
+    font-size: larger;
+}
+/* выровниввает текст по центру для одного из заголовков */
+#center {
+    text-align: center;
+}
+/* делает один из абзацев жирным */
+#bolder {
+    font-weight: bolder;
+}
+/* задает фоновый цвет для контейнера */
+#background_color {
+    background-color: wheat;
+    width: 95px;
+    height: 75px;
+}
+/* вставляет фоновое изображение */
+body {
+    background-image: url(texture-4258163_1280.jpg);
+}
+/* добавляет внутренние отступы */
+.padding {
+   padding: 15px;
+   font-size: larger
+}
+/* добавляет внешние отступы между блоками */
+.margrin {
+   margin: 20px;
+   font-size: larger;
+}
+/* создает рамку для блоков */
+.border {
+   border: 5px solid wheat;
+   font-size: larger;
+   width: 100px;
+   height: 50px;
+
+} 
+/* задает ширину и высоту для элементов */
+img  {
+    width: 100px;
+    height: 100px;
+}
+/* установляет управление содержимым, если оно выходит за границы блока */
+.box2 {
+  width: 100px;
+  height: 100px;
+  overflow: scroll; 
+}

@@ -1,0 +1,8 @@
+/* Преобразуем линейные элементы в блочные */
+.inline-to-block {
+   display: block;
+}
+/* Преобразует блочные элементы в линейные */
+.block-to-inline {
+   display: inline;
+}

@@ -1,0 +1,50 @@
+/* Изменяет цвет фона кнопки при наведении курсора мыши на нее  */
+.button:hover {
+   background-color: #0f66c36b;
+}
+/* Изменяет цвет границы поля ввода, когда оно находится в фокусе */
+ .input:focus {
+      border-color: #1eb686d0; 
+    }
+.input {
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+    }
+/* Использует `:first-child`, чтобы изменить стиль первого элемента списка  */
+.list-item:first-child {
+   color: #bd341ce3;;
+}
+/*Применяет `:last-child`, чтобы изменить стиль последнего элемента списка  */
+.list-item:last-child {
+   color: #2424bbaf;;
+}
+/* Изменяет цвет ссылки при наведении на нее курсора */
+.link:hover {
+    background-color: #8e2bd17e;
+}
+/* Изменяет цвет ссылки при нажатие на нее */
+.link:focus {
+    background-color: #1f77bf6b;
+}
+/* Применяет стили для изменения внешнего вида нечетных текстовых элементов внутри блока  */
+.list li:nth-child(odd) {
+    font-weight: bold;
+}
+
+.form__input:focus {
+    border-color: #c27511bb;
+    background-color: #ca20347d;
+}
+.form__input{
+    padding: 10px;
+      border: 2px solid #b12c8e74;
+      border-radius: 5px;
+      outline: none;
+}
+.list1:hover{
+    color: #b2215fd0;
+    font-weight: bolder;
+    font-size: larger;
+}

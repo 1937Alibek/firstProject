@@ -43,8 +43,17 @@
       border-radius: 5px;
       outline: none;
 }
-.list1:hover{
+.list_1:first-child:hover{
     color: #b2215fd0;
     font-weight: bolder;
     font-size: larger;
+}
+.list_1:last-child:hover{
+    color: #2e34cf85;
+    font-weight: 10px;
+    font-size: smaller;
+}
+.button1:first-child:focus{
+    color: #25739ebc;
+    border-color: #307852d0;
 }

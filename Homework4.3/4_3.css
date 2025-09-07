@@ -1,0 +1,48 @@
+/* физическая часть и визуальная часть остаются на месте */
+.static {
+           position: static;
+           width: 200px;
+           height: 100px;
+           background-color: rgba(57, 137, 216, 0.713);
+       }
+/* Переносит визуальную часть контэйнера оставляя физическую часть на месте */
+.relative {
+           position: relative;
+           top: 20px;
+           left: 90px;
+           width: 200px;
+           background-color: rgba(75, 50, 214, 0.808);
+       }
+.container {
+           position: relative;
+       }
+/* Переносит 2 части которые невидимы от родительского элемента */
+.absolute {
+           position: absolute;
+           top: 20px;
+           left: 90px;
+           background-color: rgb(111, 201, 231);
+       }
+.fix {
+           position: fixed;
+           bottom: 10px;
+           right: 10px;
+       }
+.RE {
+    position: relative;
+    top: 40px;
+    left: 180px;
+}
+.container {
+               height: 2000px;
+}
+.sticky {
+               position: sticky;
+               top: 10px;
+               background-color: rgba(53, 181, 123, 0.745);
+               padding: 10px;
+               border: 1px solid #3423a6;
+}
+P {
+    height: 1000px;
+}

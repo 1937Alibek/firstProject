@@ -1,0 +1,75 @@
+.cards {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 730px 730px 730px;
+    padding-top: 80px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardblock {
+    display: flex;
+    flex-direction: column;
+    background-color: #E1EDE6;
+}
+
+.img {
+    margin: 20px 20px 20px 20px;
+}
+
+.author {
+    font-weight: 500;
+    font-size: 18px;
+    color: #86928B;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 30px;
+    color: #2C2D35;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.material {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2C2D35;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 24px;
+    color: #598D66;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.button {
+    font-weight: 500;
+    font-size: 20px;
+    color: #598D66;
+    border: 1px solid;
+    border-color: #598D66;
+    background-color: #E1EDE6;
+    height: 65px;
+    width: 310px;
+    margin-left: 20px;
+}
+.cards2 {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 730px 730px;
+    margin-top: 100px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px
+}

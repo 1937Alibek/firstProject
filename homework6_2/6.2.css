@@ -1,0 +1,165 @@
+.rotate {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(24, 70, 156);
+    border-radius: 25px;
+    animation: rotate 25s infinite;
+}
+
+@keyframes rotate {
+    /* поворачивает блок на 360 градусов и  */
+    0% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: 90deg;
+    }
+
+    50% {
+        rotate: 180deg;
+    }
+
+    75% {
+        rotate: 270deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+body {
+    margin: 50px 50px;
+}
+
+.scale {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(19, 150, 115);
+    border-radius: 10px;
+    animation: scale 10s infinite;
+    margin-left: 50px;
+}
+
+@keyframes scale {
+    /* Увеличивает и уменьшает блок */
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.25);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    75% {
+        transform: scale(1.25);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animation {
+    display: flex;
+    flex-direction: row;
+}
+
+.translate {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 86, 15);
+    border-radius: 10px;
+    animation: translate 10s infinite;
+    margin-left: 50px;
+}
+
+@keyframes translate {
+    /* меняют местоположение блока вправо и на лево */
+    0% {
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateX(44px);
+
+    }
+    75% {
+        transform: translateY(10px);
+    }
+    95% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+
+}
+
+.skew {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 187, 22);
+    border-radius: 10px;
+    animation: skew 10s infinite;
+    margin-left: 50px;
+}
+
+@keyframes skew {
+    /* наклоняет блок  */
+    0% {
+        transform: skewX(10deg);
+    }
+
+    50% {
+        transform: skewX(-10deg);
+    }
+
+    100% {
+        transform: skewX(0deg);
+    }
+}
+
+.transition {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.slide {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(195, 103, 23);
+    border-radius: 10px;
+    color: rgb(127, 75, 24);
+    border: none;
+    cursor: grab;
+    transition: 0.75s;
+}
+.slide:hover {
+    
+    transform: translateY(150px);
+    cursor: auto;
+}
+.rotation {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(144, 26, 11);
+    border-radius: 10px;
+    color: rgb(127, 75, 24);
+    border: none;
+    transition: 1s;
+    margin-left: 50px;
+}
+.rotation:hover {
+    transform: rotate(360deg);
+}
+

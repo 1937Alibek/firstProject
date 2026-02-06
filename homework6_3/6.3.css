@@ -1,0 +1,38 @@
+.before::before {
+    content: "1";
+    color: #1554a8;
+    font-size: 45px;
+    font-weight: 500;
+}
+.before2::before {
+    content: "2";
+    color: #a83215;
+    font-size: 45px;
+    font-weight: 500;
+}
+.after::after {
+    content: "строчка";
+    color: #1541a8;
+}
+.practice::before {
+    content: "|";
+    color: rgb(165, 9, 9);
+    font-size: 30px;
+    font-weight: 500;
+}
+.practice::after {
+    content: "|";
+    color: rgb(165, 9, 9);
+    font-size: 30px;
+    font-weight: 500;
+}
+.frame::before {
+    content: "__________________________";
+    display: block;
+    color: rgb(18, 116, 165);
+}
+.frame::after {
+    content: "__________________________";
+    display: block;
+    color: rgb(18, 116, 165);
+}
